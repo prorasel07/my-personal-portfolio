@@ -107,6 +107,11 @@ nav a{
 
 /* MAIN SECTION START */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
  /* ABOUT SECTION STYLES */
 
  .about{
@@ -114,4 +119,29 @@ nav a{
     background: #FFF8F3;
     padding: 130px;
     margin: 130px 0px;
+ }
+
+ .about-info-conteiner{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .about-info{
+    text-align: center;
+ }
+
+ .info-title{
+    color:#757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+ }
+
+ .info-description{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
  }
