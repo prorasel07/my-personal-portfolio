@@ -238,3 +238,50 @@ main{
     border: 0;
  }
 
+
+ /* Responsive style */
+/* mobile devices */
+
+ @media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    nav > ul,
+    nav,
+    .banner,
+    .skill-conteiner, 
+    .resume-conteiner,
+    .about-info-conteiner, 
+    footer{
+        flex-direction: column;
+    }
+    nav > ul {
+        gap: 10px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .banner,
+    #what-i-do-description{
+        padding: 20px;
+    }
+    .profile-pic {
+        width: 100%;
+    }
+    footer, .about{
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+ }
+
+ /* midium devices */
+
+ @media screen and (min-width:576px) and (max-width:960px) {
+    footer{
+        padding: 30px;
+    }
+ }
+
+
